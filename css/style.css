@@ -19,6 +19,7 @@ align-items: center;
 .header-logo {
     margin-right: auto;
     font-size: 24px;
+    font-weight: bold;
 }
 
 /* container */
@@ -31,18 +32,32 @@ align-items: center;
 
 /* sections */
 
+    /* main section */
+    
 .main-section {
     background-color: #1F2937;
     color: white;
     display: flex;
     flex: 1;
     justify-content: center;
-    padding: 64px;
+    align-items: center;
+    padding: 36px;
+    padding-left: 100px;
 }
 
-.second-section {
+.description {
     display: flex;
-flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 6px;
+    background-color: #1F2937;
+    
+
+}
+
+h1 {
+    margin: 0;
 }
 
 button {
@@ -53,10 +68,28 @@ button {
     border-radius: 16px;
 }
 
-.information {
-display: flex;
-align-items: center;
-justify-content: center;
+
+    /* second section*/
+
+.second-section {
+    display: flex;
+    flex-direction: column;
+    padding: 64px;
+    padding-bottom: 100px;
+   
+}
+
+.species {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+}
+
+.header-text {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
 }
 
 .images {
@@ -64,6 +97,92 @@ justify-content: center;
     align-items: center;
     justify-content: center;
 }
+
+.flowers {
+    height: 150px;
+    width: 150px;
+    padding: 0 36px;
+    margin-top: 24px;
+}
+
+.information {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+.third-section {
+    padding: 64px;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 24px;
+    color: #1F2937;
+    margin: 0 100px;
+    font-family: Perpetua, Baskerville, "Big Caslon", "Palatino Linotype", Palatino, "URW Palladio L", "Nimbus Roman No9 L", serif;
+}
+
+.author {
+    font-weight: bold;
+    margin-top: 8px;
+    margin-left: auto;
+    margin-right: 100px;
+    font-size: 18px;
+    
+}
+
+.fourth-section {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.sign-up {
+    background-color: #3882F6;
+    border-color: white;
+}
+
+.sign-up1 {
+    display: flex;
+    align-items: center;
+}
+
+.box {
+    background-color: #3882F6;
+    display: flex;
+    margin: 64px;
+    padding: 24px;
+    padding-left: 64px;
+    padding-right: 64px;
+   border-radius: 16px;
+    gap: 100px;
+    color: white;
+}
+
+
+h2 {
+    margin: 0;
+}
+
+.p1 {
+    margin: 0;
+    font-weight: lighter;
+}
+
+
+
+
+
 
 
 /* links */
@@ -107,15 +226,9 @@ footer {
 img {
     width: 300px;
     height: auto;
+    padding: 32px;
 }
 
-.flowers {
-    height: 150px;
-    width: 150px;
-}
 
-.header-text {
-    font-size: 36px;
-    font-weight: bold;
-}
+
 
